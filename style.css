@@ -49,7 +49,31 @@ li {
     padding: 0 0 0 40px; 
 }
 
-.next_level{
+.about{
     height: 913px;
+    margin: 0 20px;    
 }
 
+.about__conrainer{    
+    margin: 40px 50px 0 50px;
+    display: flex;
+    align-items: center;
+}
+
+.about__text{
+    color: #ffff;
+}
+
+.about__title{
+    font-size: 70px;    
+    line-height: 88px;
+    font-weight: normal;  
+}
+
+.about__photo{
+    height: 100%;;
+}
+
+a { 
+   text-decoration: none; /* Отменяем подчеркивание у ссылок */
+} 
