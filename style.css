@@ -211,3 +211,7 @@ li {
     position: absolute;
     bottom: 0px;
 }
+
+.arrow{
+    transform: rotate(90);
+}
