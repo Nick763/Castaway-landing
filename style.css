@@ -186,6 +186,8 @@ li {
 .card__description{
     padding-right: 20px;
     position: relative;
+    color: #FFFFFFB2;
+    font-size: 22px;
 }
 
 .tag{
@@ -200,11 +202,6 @@ li {
 
 .num_ep{
     color: #118DA8;
-}
-
-.description{
-    color: #FFFFFFB2;
-    font-size: 22px;
 }
 
 .card_btn{
@@ -252,4 +249,65 @@ li {
 .acquaintance{
     color: #118DA8;
     font-size: 18px;
+}
+
+.subscribe{
+    padding: 100px 70px;    
+}
+
+.subscribe__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    background-color: #000000;
+    border-radius: 32px;
+    position: relative;    
+}
+
+.newsletter{    
+    color: #118DA8;
+    font-size: 18px;
+    h1{
+        font-family: 'DM Sans';
+        font-size: 64px;
+        color: #ffff;
+        font-weight: lighter;
+        letter-spacing: 2.88px;
+        line-height: 79.2px;
+        margin: 0; 
+    }; 
+}
+
+.form{    
+    input {
+        background-color: #191919;
+        border: 1px;
+        border-radius: 6px;
+        color: #FFFFFFB2;
+        width: 522px;
+        height: 82px;
+        font-family: 'DM Sans';
+        font-size: 24px;
+        padding-left: 19px;        
+      }
+
+      input:focus {
+        background-color: #191919;
+        border: 1px;
+      }
+
+      textarea {        
+        background-color: #118DA8;
+        resize: none;
+      }
+}
+
+.form__group{
+    margin-bottom: 20px;
+}
+
+.lines2{
+    position: absolute;
+    bottom: -30px;
+    left: -37px;
 }
