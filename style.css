@@ -125,7 +125,7 @@ li {
 
 
 .episodes{
-    margin: 100.44px 70px 40px 70px;
+    margin: 100.44px 70px 100px 70px;
 }
 
 
@@ -212,6 +212,44 @@ li {
     bottom: 0px;
 }
 
+.about{
+    padding: 100px 70px 100px 70px;
+}
+
+.about__conrainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__content{ 
+    margin: auto 0;
+    
+    p{
+        color: #FFFFFFB2;
+        font-size: 22px;
+        line-height: 33px;
+    };
+
+    h1{
+        font-family: 'DM Sans';
+        font-size: 64px;
+        color: #ffff;
+        font-weight: lighter;
+        letter-spacing: 2.8px;
+        line-height: 79.2px;
+        margin: 0; 
+    };    
+}
+
+.about__meet{    
+}
+
 .arrow{
     transform: rotate(90);
+    margin-bottom: 20px;
+}
+
+.acquaintance{
+    color: #118DA8;
+    font-size: 18px;
 }
