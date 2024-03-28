@@ -6,7 +6,7 @@ html,body{
     font-family: 'DM Sans'   
 }
 
-.header_content_contaner {
+.header__contaner{
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
@@ -16,22 +16,22 @@ html,body{
     padding: 26px 50px;      
 }
 
-.header__logo {
+.header__logo{
     width: 160px;
     height: 33px;    
     margin-top: 17px;
 }
 
-.menu__body{
+.header-menu{
     display: flex; 
     align-items: center;
 }
 
-.menu__list{
+.header-menu__list{
     display: flex;        
 }
 
-.menu__link{      
+.header-menu__link{      
     font-size: 17px;
     font-weight: 400px;
     line-height: 27px;
@@ -40,7 +40,7 @@ html,body{
     transition: color 0.3s ease 0s;    
 }
 
-.menu__link:hover {
+.header-menu__link:hover {
     color: #118DA8;    
 }
 
@@ -66,17 +66,17 @@ li {
     height: 100%;
 }
 
-.main_photo{
+.home__main-photo{
     position: relative;
 }
 
-.lines{
+.home__lines{
     position: relative;
     left: -26px;
     top: -904px;
 }
 
-.line_next{
+.home__line-next{
     position: relative;
     top: -65px;
     left: -3px;
@@ -113,11 +113,11 @@ li {
     
 }
 
-.home__media_streaming{
+.home__media-streaming{
     margin-top: 16px;
 }
 
-.stream_logo{    
+.home__stream-logo{    
     padding-right: 8px;
     width: 32px;
     height: 32px;
@@ -129,7 +129,7 @@ li {
 }
 
 
-.latest_episodes{    
+.latest-episodes{    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -142,7 +142,7 @@ li {
     }; 
 }
 
-.btn{    
+button{    
     background-color: #118DA8;
     color:#ffff;
     font-family: 'DM Sans';
@@ -154,7 +154,7 @@ li {
     cursor: pointer;    
 }
 
-.episode_cards{
+.episode-cards{
     margin-top: 20px;    
     display: flex;
     flex-direction: column;    
@@ -173,24 +173,27 @@ li {
         font-weight: lighter;
         letter-spacing: 2.6px;
         line-height: 70.4px;
-        margin: 30px 0; 
+        margin: 22px 0; 
     }; 
 }
 
-.card__picture{
-    margin-right: 40px;
-    height: 100%;
-    width: 389px;    
+.card__image-container{
+    margin-right: 53px;
+    position: relative;  
 }
 
-.card__description{
-    padding-right: 20px;
+.card__image{
+    height: 100%;
+}
+
+
+.card__description{    
     position: relative;
     color: #FFFFFFB2;
     font-size: 22px;
 }
 
-.tag{
+.card__tag{
     width: max-content;
     background-color: #191919;
     color: #ffff;
@@ -200,11 +203,11 @@ li {
     margin-bottom: 48px;
 }
 
-.num_ep{
+.card__num_ep{
     color: #118DA8;
 }
 
-.card_btn{
+.card__btn{
     position: absolute;
     bottom: 0px;
 }
@@ -241,21 +244,21 @@ li {
 .about__meet{    
 }
 
-.arrow{
+.about__arrow{
     transform: rotate(90);
     margin-bottom: 20px;
 }
 
-.acquaintance{
+.about__acquaintance{
     color: #118DA8;
     font-size: 18px;
 }
 
-.subscribe{
+.form{
     padding: 100px 70px;    
 }
 
-.subscribe__container{
+.form__container{
     display: flex;
     justify-content: space-between;
     padding: 60px;
@@ -264,7 +267,7 @@ li {
     position: relative;    
 }
 
-.newsletter{    
+.form__newsletter{    
     color: #118DA8;
     font-size: 18px;
     h1{
@@ -278,7 +281,7 @@ li {
     }; 
 }
 
-.form{    
+.form__form{    
     input {
         background-color: #191919;
         border: 1px;
@@ -289,25 +292,24 @@ li {
         font-family: 'DM Sans';
         font-size: 24px;
         padding-left: 19px;        
-      }
+      };
 
       input:focus {
         background-color: #191919;
         border: 1px;
-      }
-
-      textarea {        
-        background-color: #118DA8;
-        resize: none;
-      }
+      }; 
 }
 
 .form__group{
     margin-bottom: 20px;
 }
 
-.lines2{
+.form__lines{
     position: absolute;
     bottom: -30px;
     left: -37px;
+}
+
+.reviews__star-image{
+    
 }

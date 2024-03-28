@@ -10,14 +10,14 @@
 	
 	<body>
         <header class="header">
-            <div class="header_content_contaner">
+            <div class="header__contaner">
                 <img class="header__logo" src='vectorgraphics/LOGO.svg'>
-                <nav class="menu__body">                    
-                    <ul class="menu__list">
-                        <li><a href="" class="menu__link">Home</a></li>
-                        <li><a href="" class="menu__link">Episodes</a></li>
-                        <li><a href="" class="menu__link">About</a></li>
-                        <li><a href="" class="menu__link">Contact</a></li>
+                <nav class="header-menu">                    
+                    <ul class="header-menu__list">
+                        <li><a href="" class="header-menu__link">Home</a></li>
+                        <li><a href="" class="header-menu__link">Episodes</a></li>
+                        <li><a href="" class="header-menu__link">About</a></li>
+                        <li><a href="" class="header-menu__link">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -28,8 +28,8 @@
             <div class ='home'>
                 <div class ='home__conrainer'>                    
                     <div class ='home__photo'>
-                        <img class = "main_photo" src="img/next level.svg">
-                        <img class = "lines" src="vectorgraphics/lines.svg">                                                 
+                        <img class = "home__main-photo" src="img/next level.svg">
+                        <img class = "home__lines" src="vectorgraphics/lines.svg">                                                 
                     </div>
                     <div class ='home__content'>
                         <div class="home__text">
@@ -37,15 +37,15 @@
                             Take your
                             <br>podcast to the 
                             <br>next <b>level</b></h1>
-                            <img class = "line_next" src="vectorgraphics/line(next).svg">                            
+                            <img class = "home__line-next" src="vectorgraphics/line(next).svg">                            
                         </div>
                         <div class="home__media">Listen on
-                            <div class="home__media_streaming">                         
-                                <a class="stream_logo" href=""><img src="img/logo/spotify.svg"></a>
-                                <a class="stream_logo" href=""><img src="img/logo/red.svg"></a>
-                                <a class="stream_logo" href=""><img src="img/logo/orange.svg"></a>
-                                <a class="stream_logo" href=""><img src="img/logo/violet.svg"></a>
-                                <a class="stream_logo" href=""><img src="img/logo/white.svg"></a>
+                            <div class="home__media-streaming">                         
+                                <a class="home__stream-logo" href=""><img src="img/logo/spotify.svg"></a>
+                                <a class="home__stream_logo" href=""><img src="img/logo/red.svg"></a>
+                                <a class="home__stream_logo" href=""><img src="img/logo/orange.svg"></a>
+                                <a class="home__stream_logo" href=""><img src="img/logo/violet.svg"></a>
+                                <a class="home__stream_logo" href=""><img src="img/logo/white.svg"></a>
                             </div>
                         </div>
                     </div>                              
@@ -54,50 +54,50 @@
             
             
             <div class="episodes">
-                <div class="latest_episodes">
+                <div class="latest-episodes">
                     <h1>Latest episodes</h1>
-                    <button class="btn">View all episodes</button>
+                    <button>View all episodes</button>
                 </div>
                 
-                <div class="episode_cards">
+                <div class="episode-cards">
                     <div class="card">
-                        <div class="card__picture">
-                            <img src="img/Ep3.svg">
+                        <div class="card__image-container">
+                            <img class="card__image" src="img/Ep3.svg">
                         </div>
                         <div class="card__description">
-                            <div class="tag">Gear</div>
-                            <div class="num_ep">Episode 3</div>
-                            <div class="card_title"><h1>Should you get outboard audio gear?</h1></div>
+                            <div class="card__tag">Gear</div>
+                            <div class="card__num_ep">Episode 3</div>
+                            <div class="card__title"><h1>Should you get outboard audio gear?</h1></div>
                             <p>Is hardware really worth it when it comes to podcasting? The answer is...it<br>
                                 depends. Here’s our reasons on why you might want to consider picking<br>
                                 something up.</p>
-                            <button class="btn card_btn">View Episode Details</button>
+                            <button class="card__btn">View Episode Details</button>
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card__picture">
-                            <img src="img/Ep2.svg">
+                        <div class="card__image-container">
+                            <img class="card__image" src="img/Ep2.svg">
                         </div>
                         <div class="card__description">
-                            <div class="tag">Tips & Tricks</div>
-                            <div class="num_ep">Episode 2</div>
-                            <div class="card_title"><h1>Mic tricks to take<br> you to the next level</h1></div>
+                            <div class="card__tag">Tips & Tricks</div>
+                            <div class="card__num_ep">Episode 2</div>
+                            <div class="card__title"><h1>Mic tricks to take<br> you to the next level</h1></div>
                             <p>Stop rolling with those default settings on your mic. These small tweaks will<br>
                                 take you from sounding good to great.</p>
-                            <button class="btn card_btn">View Episode Details</button>
+                            <button class="card__btn">View Episode Details</button>
                         </div>    
                     </div>
                     <div class="card">
-                        <div class="card__picture">
-                            <img src="img/Ep1.svg">
+                        <div class="card__image-container">
+                            <img class="card__image" src="img/Ep1.svg">
                         </div>
                         <div class="card__description">
-                            <div class="tag">Gear</div>
-                            <div class="num_ep">Episode 1</div>
-                            <div class="card_title"><h1>The best microphone<br> under $200</h1></div>
+                            <div class="card__tag">Gear</div>
+                            <div class="card__num_ep">Episode 1</div>
+                            <div class="card__title"><h1>The best microphone<br> under $200</h1></div>
                             <p>With so many microphones on the market, how are you supposed to know
                                 what’s the best? Take a look at our top picks.</p>
-                            <button class="btn card_btn">View Episode Details</button>
+                            <button class="card__btn">View Episode Details</button>
                         </div>    
                     </div>
                 </div>
@@ -106,46 +106,62 @@
             <div class ='about'>
                 <div class ='about__conrainer'>
                     <div class ='about__content'>
-                        <div class="about__meet">
-                            <img class = "arrow" src="vectorgraphics/arrow.png"> 
-                            <div class="acquaintance">Meet your host</div>
+                        <div class='about__meet'>
+                            <img class = 'about__arrow' src='vectorgraphics/arrow.png'> 
+                            <div class='about__acquaintance'>Meet your host</div>
                         </div> 
-                        <h1 class="about__title">Jacob Paulaner</h1>                        
+                        <h1 class='about__title'>Jacob Paulaner</h1>                        
                             <p>Jacob has a background in audio engineering, and has<br> been podcasting since the early days.</p>                    
                             <p>He’s here to help you level up your game by sharing<br> everything he’s learned along the way.</p>                                 
                     </div>                           
                     <div class ='about__photo'>
-                        <img class = "about_photo" src="img/Jacob.svg">                                                                    
+                        <img src="img/Jacob.svg">                                                                    
                     </div>                                       
                 </div>
             </div>
 
-            <div class ='subscribe'>
-                <div class ='subscribe__container'>
-                    <div class ='newsletter'>
+            <div class ='form'>
+                <div class ='form__container'>
+                    <div class ='form__newsletter'>
                         Email Newsletter
-                        <div class="newsletter_title"><h1>Subscribe<br> for updates</h1></div>                        
+                        <div class="form__title">
+                            <h1>Subscribe<br> for updates</h1>
+                        </div>                        
                     </div>
-                    <div class ='form'>
+                    <div class ='form__form'>
                         <form>
                             <div class="form__group">
-                              <label for="name"></label>
-                              <input type="text" placeholder="Name" id="name">
+                                <label for="name"></label>
+                                <input type="text" placeholder="Name" id="name">
                             </div>
                             <div class="form__group">
-                              <label for="email"></label>
-                              <input type="email" placeholder="Email" id="email">
+                                <label for="email"></label>
+                                <input type="email" placeholder="Email" id="email">
                             </div>
-                            <button class="btn form__submit" type="submit">
+                            <button class="form__submit" type="submit">
                                 Submit
                             </button>
                         </form>                        
                     </div>
-                    <img class = "lines2" src="vectorgraphics/lines 2.svg">                    
-                </div>
-                
+                    <img class= "form__lines" src="vectorgraphics/lines 2.svg">                    
+                </div>                
             </div>
-        </main>	
-	</body>
-</html>
 
+            <div class="reviews">
+                <div class="reviews__container">
+                    <div class="reviews__square">
+                        <div class="reviews__stars">
+                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
+                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
+                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
+                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
+                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
+                        </div>
+                        <div class="reviews__text">
+                            <h1>I can’t recommend this podcast enough</h1>
+                        </div>
+                        <div class="reviews__name">
+                            <p>Betty Lacey</p>
+                        </div>
+                    </div>
+                 
