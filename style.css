@@ -131,11 +131,12 @@ li {
 
 
 .episodes{
-    margin: 90px 70px 100px 70px;
+    margin: 100px 70px 100px 70px;
 }
 
 
-.latest-episodes{    
+.latest-episodes{
+    height: 99px;    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -144,12 +145,9 @@ li {
         font-size: 64px;
         color: #ffff;
         font-weight: lighter;
-        letter-spacing: 3.2px; 
+        letter-spacing: 3.2px;
+        margin-bottom: 30px; 
     }; 
-}
-
-.latest-episodes__btn{
-    margin-top: 25px;
 }
 
 button{    
@@ -164,8 +162,13 @@ button{
     cursor: pointer;    
 }
 
+.latest-episodes__btn{    
+    font-size: 17px;    
+    padding: 14px 20px 14px 20px;        
+}
+
 .episode-cards{
-    margin-top: 60px;    
+    margin-top: 40px;    
     display: flex;
     flex-direction: column;    
 }
@@ -253,6 +256,7 @@ button{
         color: #FFFFFFB2;
         font-size: 22px;
         line-height: 33px;
+        margin: 25px 0;
     };
 
     h1{
@@ -266,9 +270,6 @@ button{
     };    
 }
 
-.about__meet{    
-}
-
 .about__arrow{
     transform: rotate(90);
     margin-bottom: 20px;
@@ -279,6 +280,11 @@ button{
     font-size: 18px;
 }
 
+.about__photo{
+    height: 744px;
+    width: 650px;
+}
+
 .form{
     padding: 100px 70px;    
 }
@@ -286,7 +292,7 @@ button{
 .form__container{
     display: flex;
     justify-content: space-between;
-    padding: 60px;
+    padding: 60px 60px 75px 60px;
     background-color: #000000;
     border-radius: 32px;
     position: relative;    
@@ -297,7 +303,7 @@ button{
     font-size: 18px;
     h1{
         font-family: 'DM Sans';
-        font-size: 64px;
+        font-size: 72px;
         color: #ffff;
         font-weight: lighter;
         letter-spacing: 2.88px;
@@ -312,11 +318,11 @@ button{
         border: 1px;
         border-radius: 6px;
         color: #FFFFFFB2;
-        width: 522px;
+        width: 503px;
         height: 82px;
         font-family: 'DM Sans';
         font-size: 24px;
-        padding-left: 19px;        
+        padding: 0 0 0 19px;                     
       };
 
       input:focus {
@@ -325,14 +331,19 @@ button{
       }; 
 }
 
+.form__submit{
+    font-size: 15px;
+    padding: 14px 18px 14px 20px;
+}
+
 .form__group{
     margin-bottom: 20px;
 }
 
 .form__lines{
     position: absolute;
-    bottom: -30px;
-    left: -37px;
+    bottom: -26px;
+    left: -38px;
 }
 
 .reviews__star-image{
