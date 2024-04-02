@@ -41,7 +41,7 @@ h1{
     display: contents;       
 }
 
-.header-menu__link{      
+.menu__link{      
     font-size: 17px;
     font-weight: 400px;
     line-height: 27px;
@@ -50,11 +50,11 @@ h1{
     transition: color 0.3s ease 0s;    
 }
 
-.header-menu__link:hover {
+.menu__link:hover {
     color: #118DA8;    
 }
 
-li {
+.header-menu__list_li {
     list-style-type: none;
     margin-left: 44px;    
 }
@@ -125,7 +125,7 @@ li {
     margin-top: 16px;
 }
 
-.home__stream-logo{    
+.stream-logo{    
     padding-right: 13px;    
 }
 
@@ -346,6 +346,95 @@ button{
     left: -38px;
 }
 
+
+.reviews{
+    padding: 100px 70px;    
+}
+
+.reviews__container{
+    display: grid;
+    grid-template-columns: 423px 423px 423px;
+    grid-template-rows: 321px 364px; 
+    grid-gap: 16px;
+}
+
+.reviews__square{
+    background-color: #000000;
+    padding: 54px 0px 0px 50px;
+    border-radius: 32px;    
+}
+
 .reviews__star-image{
+    margin-bottom: 15px;
+    margin-right: 0.8px;
+}
+
+.reviews__text{    
+    h1{
+        font-family: 'DM Sans';
+        font-size: 36px;
+        color: #ffff;
+        font-weight: 400;
+        letter-spacing: 0;
+        line-height: 43.2px;
+        margin: 0; 
+    }; 
+}
+
+.reviews__name{
+    margin-top: 5px;
+    p{
+        color: #FFFFFFB2;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 22px;        
+    };
+}
+
+footer{
+    padding: 100px 70px;  
+}
+
+.footer__container{
+    display: grid;
+    grid-template-columns: 447px 179px 179px 447px;
+    grid-template-rows: 222px;
+    grid-gap: 16px; 
+}
+
+
+.footer__logo{
+    margin-bottom: 20px;
+}
+
+.footer__social-media_logo{
+    margin-right:5px;
+}
+
+.footer-menu__links_li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.footer-menu__list_li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.footer__menu_nav{
+    
+}
+
+.footer-menu__links{
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu__list{
+    padding: 0;
+    margin: 0;
+}
+
+.footer__media-streaming{
     
 }
