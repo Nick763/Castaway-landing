@@ -47,6 +47,11 @@ button{
     background-color: #191919;    
 }
 
+.header__contaner_hide {
+    opacity: 0%;
+    transition: 1s linear;
+}
+
 .header__logo{
     width: 160px;
     height: 33px;       
