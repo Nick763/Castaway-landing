@@ -9,12 +9,22 @@ html,body{
 h1{
     margin: 0;
     font-weight: lighter;
-    color: #ffff;
-    font-size: 70px;    
+    color: #ffff;        
     line-height: 88px;
     letter-spacing: 3.2px;      
 }
 
+button{    
+    background-color: #118DA8;
+    color:#ffff;
+    font-family: 'DM Sans';
+    font-size: 17px;    
+    font-weight: lighter;
+    padding: 14px 10px 14px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;    
+}
 
 .header__contaner{
     max-width: 1340px;
@@ -153,24 +163,10 @@ h1{
     align-items: center;
     
     h1{
-        font-size: 64px;
-        color: #ffff;
-        font-weight: lighter;
+        font-size: 64px;    
         letter-spacing: 3.2px;
         margin-bottom: 30px; 
     }; 
-}
-
-button{    
-    background-color: #118DA8;
-    color:#ffff;
-    font-family: 'DM Sans';
-    font-size: 17px;    
-    font-weight: lighter;
-    padding: 14px 10px 14px 16px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;    
 }
 
 .latest-episodes__btn{    
@@ -191,10 +187,7 @@ button{
     background-color: #000000;
     margin-bottom: 60px;        
     h1{
-        font-family: 'DM Sans';
-        font-size: 64px;
-        color: #ffff;
-        font-weight: lighter;
+        font-size: 64px;        
         letter-spacing: 2.56px;
         line-height: 70.4px;
         margin: 22px 0; 
@@ -271,13 +264,9 @@ button{
     };
 
     h1{
-        font-family: 'DM Sans';
-        font-size: 64px;
-        color: #ffff;
-        font-weight: lighter;
+        font-size: 64px;        
         letter-spacing: 2.8px;
-        line-height: 79.2px;
-        margin: 0; 
+        line-height: 79.2px;        
     };    
 }
 
@@ -313,13 +302,9 @@ button{
     color: #118DA8;
     font-size: 18px;
     h1{
-        font-family: 'DM Sans';
-        font-size: 72px;
-        color: #ffff;
-        font-weight: lighter;
+        font-size: 72px;        
         letter-spacing: 2.88px;
-        line-height: 79.2px;
-        margin: 0; 
+        line-height: 79.2px;        
     }; 
 }
 
@@ -381,14 +366,10 @@ button{
 }
 
 .reviews__text{    
-    h1{
-        font-family: 'DM Sans';
-        font-size: 36px;
-        color: #ffff;
-        font-weight: 400;
+    h1{        
+        font-size: 36px;  
         letter-spacing: 0;
-        line-height: 43.2px;
-        margin: 0; 
+        line-height: 43.2px;        
     }; 
 }
 
