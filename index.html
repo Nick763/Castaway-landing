@@ -14,10 +14,10 @@
                 <img class="header__logo" src='vectorgraphics/LOGO.svg'>
                 <nav class="header-menu">                    
                     <ul class="header-menu__list">
-                        <li class="header-menu__list_li"><a href="" class="header-menu__list_link menu__link">Home</a></li>
-                        <li class="header-menu__list_li"><a href="" class="header-menu__list_link menu__link">Episodes</a></li>
-                        <li class="header-menu__list_li"><a href="" class="header-menu__list_link menu__link">About</a></li>
-                        <li class="header-menu__list_li"><a href="" class="header-menu__list_link menu__link">Contact</a></li>
+                        <li class="header-menu__li"><a href="#home" class="menu__link header-menu__link">Home</a></li>
+                        <li class="header-menu__li"><a href="#episodes" class="menu__link header-menu__link">Episodes</a></li>
+                        <li class="header-menu__li"><a href="#about" class="menu__link header-menu__link">About</a></li>
+                        <li class="header-menu__li"><a href="#contact" class="menu__link header-menu__link">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -25,7 +25,7 @@
 
 
         <main class ='page'>
-            <div class ='home'>
+            <div class ='home' id="home">
                 <div class ='home__conrainer'>                    
                     <div class ='home__photo'>
                         <img class = "home__main-photo" src="img/next level.svg">
@@ -41,11 +41,11 @@
                         </div>
                         <div class="home__media"><p>Listen on</p>
                             <div class="home__media-streaming">                         
-                                <a class="home__stream-logo stream-logo" href=""><img src="img/logo/spotify.svg"></a>
-                                <a class="home__stream-logo stream-logo" href=""><img src="img/logo/red.svg"></a>
-                                <a class="home__stream-logo stream-logo" href=""><img src="img/logo/orange.svg"></a>
-                                <a class="home__stream-logo stream-logo" href=""><img src="img/logo/violet.svg"></a>
-                                <a class="home__stream-logo stream-logo" href=""><img src="img/logo/white.svg"></a>
+                                <a class="stream-logo home__stream-logo" href=""><img src="img/logo/spotify.svg"></a>
+                                <a class="stream-logo home__stream-logo" href=""><img src="img/logo/red.svg"></a>
+                                <a class="stream-logo home__stream-logo" href=""><img src="img/logo/orange.svg"></a>
+                                <a class="stream-logo home__stream-logo" href=""><img src="img/logo/violet.svg"></a>
+                                <a class="stream-logo home__stream-logo" href=""><img src="img/logo/white.svg"></a>
                             </div>
                         </div>
                     </div>                              
@@ -53,24 +53,24 @@
             </div> 
             
             
-            <div class="episodes">
+            <div class="episodes" id="episodes">
                 <div class="latest-episodes">
                     <h1>Latest episodes</h1>
-                    <button class="latest-episodes__btn">View all episodes</button>
+                    <button class="btn latest-episodes__btn">View all episodes</button>
                 </div>
                 
-                <div class="episode-cards">
+                <div class="episodes__cards">
                     <div class="card">
-                        <div class="card__image-container image-container_ep3">
+                        <div class="image-container-ep3 card__image-container">
                             <img class="card__image" src="img/Ep3.svg">
                         </div>
                         <div class="card__description">
                             <div class="card__tag">Gear</div>
-                            <div class="card__num_ep">Episode 3</div>
+                            <div class="card__num-ep">Episode 3</div>
                             <div class="card__title"><h1>Should you get outboard audio gear?</h1></div>
                             <p>Is hardware really worth it when it comes to podcasting? The answer is...it<br>
                                 depends. Here’s our reasons on why you might want to consider picking something up.</p>
-                            <button class="card__btn">View Episode Details</button>
+                            <button class="btn card__btn">View Episode Details</button>
                         </div>
                     </div>
                     <div class="card">
@@ -79,11 +79,11 @@
                         </div>
                         <div class="card__description">
                             <div class="card__tag">Tips & Tricks</div>
-                            <div class="card__num_ep">Episode 2</div>
+                            <div class="card__num-ep">Episode 2</div>
                             <div class="card__title"><h1>Mic tricks to take<br> you to the next level</h1></div>
                             <p>Stop rolling with those default settings on your mic. These small tweaks will<br>
                                 take you from sounding good to great.</p>
-                            <button class="card__btn">View Episode Details</button>
+                            <button class="btn card__btn">View Episode Details</button>
                         </div>    
                     </div>
                     <div class="card">
@@ -92,17 +92,17 @@
                         </div>
                         <div class="card__description">
                             <div class="card__tag">Gear</div>
-                            <div class="card__num_ep">Episode 1</div>
-                            <div class="card__title card__title_ep1"><h1>The best microphone<br> under $200</h1></div>
+                            <div class="card__num-ep">Episode 1</div>
+                            <div class="card__title-ep1 card__title"><h1>The best microphone<br> under $200</h1></div>
                             <p>With so many microphones on the market, how are you supposed to know
                                 what’s the best? Take a look at our top picks.</p>
-                            <button class="card__btn">View Episode Details</button>
+                            <button class="btn card__btn">View Episode Details</button>
                         </div>    
                     </div>
                 </div>
             </div>
 
-            <div class ='about'>
+            <div class ='about' id="about">
                 <div class ='about__conrainer'>
                     <div class ='about__content'>
                         <div class='about__meet'>
@@ -245,43 +245,47 @@
                     </div>
                 </div>
             </div>
+        </main>
 
-            <footer class="footer">
-                <div class="footer__container">
-                    <div class="footer__media">
-                        <img class="footer__logo" src='vectorgraphics/LOGO footer.svg'>
-                        <div class="footer__social-media">
-                            <a class="footer__social-media_logo" href=""><img src="img/logo/social media insta.svg"></a>
-                            <a class="footer__social-media_logo" href=""><img src="img/logo/social media twitt.svg"></a>
-                            <a class="footer__social-media_logo" href=""><img src="img/logo/social media faceb.svg"></a>
-                        </div>                                                                           
-                    </div>
-                    <div class="footer__menu">
-                        <nav class="footer__menu_nav">                    
-                            <ul class="footer-menu__list">
-                                <li class="footer-menu__list_li"><a href="" class="footer-menu__list_link menu__link">Home</a></li>
-                                <li class="footer-menu__list_li"><a href="" class="footer-menu__list_link menu__link">About</a></li>
-                                <li class="footer-menu__list_li"><a href="" class="footer-menu__list_link menu__link">Episodes</a></li>                                
-                                <li class="footer-menu__list_li"><a href="" class="footer-menu__list_link menu__link">Contact</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="footer__menu">                        
-                        <ul class="footer-menu__links">
-                            <li class="footer-menu__links_li"><a href="#" class="footer-menu__links_link menu__link">Style Guide</a></li>
-                            <li class="footer-menu__links_li"><a href="#" class="footer-menu__links_link menu__link">Instructions</a>
-                            <li class="footer-menu__links_li"><a href="#" class="footer-menu__links_link menu__link">Changelog</a></li>
-                            <li class="footer-menu__links_li"><a href="#" class="footer-menu__links_link menu__link">Credit</a></li>
-                            <li class="footer-menu__links_li"><a href="#" class="footer-menu__links_link menu__link">Powered by Webflow</a></li>
-                            <li class="footer-menu__links_li"><a href="#" class="footer-menu__links_link menu__link">Licenses</a></li>
-                        </ul>           
-                    </div>
-                    <div class="footer__media-streaming">                                                 
-                        <a class="footer__media-streaming-logo stream-logo" href=""><img src="img/logo/spotify.svg"></a>
-                        <a class="footer__media-streaming-logo stream-logo" href=""><img src="img/logo/red.svg"></a>
-                        <a class="footer__media-streaming-logo stream-logo" href=""><img src="img/logo/orange.svg"></a>
-                        <a class="footer__media-streaming-logo stream-logo" href=""><img src="img/logo/violet.svg"></a>
-                        <a class="footer__media-streaming-logo stream-logo" href=""><img src="img/logo/white.svg"></a>                        
-                    </div>
+        <footer class="footer" id="contact">
+            <div class="footer__container">
+                <div class="footer__media">
+                    <img class="footer__logo" src='vectorgraphics/LOGO footer.svg'>
+                    <div class="social-media">
+                        <a class="social-media__logo" href=""><img src="img/logo/social media insta.svg"></a>
+                        <a class="social-media__logo" href=""><img src="img/logo/social media twitt.svg"></a>
+                        <a class="social-media__logo" href=""><img src="img/logo/social media faceb.svg"></a>
+                    </div>                                                                           
                 </div>
-            </footer>
+                <div class="footer__menu">
+                    <nav class="footer__menu_nav">                    
+                        <ul class="footer-menu__list">
+                            <li class="footer-menu__li"><a href="#home" class="footer-menu__list_link menu__link">Home</a></li>
+                            <li class="footer-menu__li"><a href="#about" class="footer-menu__list_link menu__link">About</a></li>
+                            <li class="footer-menu__li"><a href="#episodes" class="footer-menu__list_link menu__link">Episodes</a></li>                                
+                            <li class="footer-menu__li"><a href="#contact" class="footer-menu__list_link menu__link">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__menu">                        
+                    <ul class="footer-menu__links">
+                        <li class="footer-menu__li"><a href="#" class="menu__link footer-menu__link">Style Guide</a></li>
+                        <li class="footer-menu__li"><a href="#" class="menu__link footer-menu__link">Instructions</a>
+                        <li class="footer-menu__li"><a href="#" class="menu__link footer-menu__link">Changelog</a></li>
+                        <li class="footer-menu__li"><a href="#" class="menu__link footer-menu__link">Credit</a></li>
+                        <li class="footer-menu__li"><a href="#" class="menu__link footer-menu__link">Powered by Webflow</a></li>
+                        <li class="footer-menu__li"><a href="#" class="menu__link footer-menu__link">Licenses</a></li>                        
+                    </ul>           
+                </div>
+                <div class="footer__media-streaming">                                                 
+                    <a class="stream-logo footer__stream-logo" href=""><img src="img/logo/spotify.svg"></a>
+                    <a class="stream-logo footer__stream-logo" href=""><img src="img/logo/red.svg"></a>
+                    <a class="stream-logo footer__stream-logo" href=""><img src="img/logo/orange.svg"></a>
+                    <a class="stream-logo footer__stream-logo" href=""><img src="img/logo/violet.svg"></a>
+                    <a class="stream-logo footer__stream-logo" href=""><img src="img/logo/white.svg"></a>                        
+                </div>
+            </div>
+        </footer>
+        <script src="js/animations.js"></script> 
+    </body>
+</html>
