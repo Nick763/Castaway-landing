@@ -9,9 +9,7 @@ html,body{
 h1{
     margin: 0;
     font-weight: lighter;
-    color: #ffff;        
-    line-height: 88px;
-    letter-spacing: 3.2px;      
+    color: #ffff;  
 }
 
 button{    
@@ -123,15 +121,21 @@ button{
     margin-bottom: 70px;   
 }
 
+.home__text h1{
+    line-height: 88px;
+    letter-spacing: 3.2px;    
+}
+
 .home__title-one{
     font-size: 70px;        
 }
 
 .home__title-two{    
-    font-size: 75px;
-    b{
-        font-size: 80px;
-    }         
+    font-size: 75px;          
+}
+
+.home__title-two b{
+        font-size: 80px;             
 }
 
 .home__line-next{
@@ -165,13 +169,13 @@ button{
     height: 99px;    
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
-    h1{
-        font-size: 64px;    
-        letter-spacing: 3.2px;
-        margin-bottom: 30px; 
-    }; 
+    align-items: center; 
+}
+
+.latest-episodes h1{
+    font-size: 64px;    
+    letter-spacing: 3.2px;
+    margin-bottom: 30px; 
 }
 
 .latest-episodes__btn{    
@@ -190,19 +194,18 @@ button{
     padding: 40px;
     border-radius: 32px;
     background-color: #000000;
-    margin-bottom: 60px;        
-    h1{
-        font-size: 64px;        
-        letter-spacing: 2.56px;
-        line-height: 70.4px;
-        margin: 22px 0; 
-    }; 
+    margin-bottom: 60px;
 }
 
-.card__title-ep1{
-    h1{        
-        font-size: 57px;        
-    }; 
+.card h1{
+    font-size: 64px;        
+    letter-spacing: 2.56px;
+    line-height: 70.4px;
+    margin: 22px 0; 
+}
+
+.card__title-ep1 h1{ 
+    font-size: 57px;         
 }
 
 
@@ -217,14 +220,14 @@ button{
 
 
 .card__description{    
-    position: relative;
-        
-    p{
-        font-size: 22px;
-        color: #FFFFFFB2;
-        line-height: 33px;
-        margin: 30px 0 0 0;        
-    }
+    position: relative;   
+}
+
+.card__description p{
+    font-size: 22px;
+    color: #FFFFFFB2;
+    line-height: 33px;
+    margin: 30px 0 0 0;        
 }
 
 .card__tag{
@@ -260,20 +263,21 @@ button{
 
 .about__content{ 
     margin: auto 0;
-    
-    p{
-        color: #FFFFFFB2;
-        font-size: 22px;
-        line-height: 33px;
-        margin: 25px 0;
-    };
-
-    h1{
-        font-size: 64px;        
-        letter-spacing: 2.8px;
-        line-height: 79.2px;        
-    };    
 }
+
+.about__content h1{
+    font-size: 64px;        
+    letter-spacing: 2.8px;
+    line-height: 79.2px;        
+}  
+
+.about__content p{
+    color: #FFFFFFB2;
+    font-size: 22px;
+    line-height: 33px;
+    margin: 25px 0;
+}
+ 
 
 .about__arrow{
     transform: rotate(90);
@@ -305,32 +309,33 @@ button{
 
 .form__newsletter{    
     color: #118DA8;
-    font-size: 18px;
-    h1{
-        font-size: 72px;        
-        letter-spacing: 2.88px;
-        line-height: 79.2px;        
-    }; 
+    font-size: 18px;    
 }
 
-.form__form{    
-    input {
-        background-color: #191919;
-        border: 1px;
-        border-radius: 6px;
-        color: #FFFFFFB2;
-        width: 503px;
-        height: 82px;
-        font-family: 'DM Sans';
-        font-size: 24px;
-        padding: 0 0 0 19px;                     
-      };
-
-      input:focus {
-        background-color: #191919;
-        border: 1px;
-      }; 
+.form__newsletter h1{
+    font-size: 72px;        
+    letter-spacing: 2.88px;
+    line-height: 79.2px; 
 }
+
+
+.form__form input {
+    background-color: #191919;
+    border: 1px;
+    border-radius: 6px;
+    color: #FFFFFFB2;
+    width: 503px;
+    height: 82px;
+    font-family: 'DM Sans';
+    font-size: 24px;
+    padding: 0 0 0 19px;                     
+}      
+
+
+.form__form input:focus {
+    background-color: #191919;
+    border: 1px;
+}     
 
 .form__submit{
     font-size: 15px;
@@ -370,26 +375,26 @@ button{
     margin-right: 0.8px;
 }
 
-.reviews__text{    
-    h1{        
-        font-size: 36px;  
-        letter-spacing: 0;
-        line-height: 43.2px;        
-    }; 
-}
+.reviews__text h1{        
+    font-size: 36px;  
+    letter-spacing: 0;
+    line-height: 43.2px;        
+} 
+
 
 .reviews__name{
-    margin-top: 5px;
-    p{
-        color: #FFFFFFB2;
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 22px;        
-    };
+    margin-top: 5px;    
+}
+
+.reviews__name p{
+    color: #FFFFFFB2;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 22px;        
 }
 
 footer{
-    padding: 100px 70px;  
+    padding: 99px 70px;  
 }
 
 .footer__container{
@@ -405,7 +410,7 @@ footer{
 }
 
 .social-media__logo{
-    margin-right: 5px;
+    margin-right: 5.5px;
 }
 
 .footer-menu__li{
