@@ -1,5 +1,5 @@
 html,body{
-    max-width: 1440px;
+    width: 1440px;
     margin: 0 auto;
     padding:0;
     background-color: #191919;
@@ -25,7 +25,7 @@ button{
 }
 
 .header__contaner{
-    max-width: 1340px;
+    width: 1340px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -191,6 +191,7 @@ button{
 
 .card{
     display: flex;
+    align-items: center;
     padding: 40px;
     border-radius: 32px;
     background-color: #000000;
@@ -201,7 +202,7 @@ button{
     font-size: 64px;        
     letter-spacing: 2.56px;
     line-height: 70.4px;
-    margin: 22px 0; 
+    margin-bottom: 28px; 
 }
 
 .card__title-ep1 h1{ 
@@ -209,8 +210,7 @@ button{
 }
 
 
-.card__image-container{
-    margin-right: 53px;    
+.card__image-container{       
     height: 432px;  
 }
 
@@ -219,15 +219,15 @@ button{
 }
 
 
-.card__description{    
-    position: relative;   
+.card__description{
+    padding: 7.56px 0px 0px 53px;   
 }
 
 .card__description p{
     font-size: 22px;
     color: #FFFFFFB2;
-    line-height: 33px;
-    margin: 30px 0 0 0;        
+    line-height: 32px;
+    margin-bottom: 20px;           
 }
 
 .card__tag{
@@ -236,19 +236,17 @@ button{
     background-color: #191919;
     color: #ffff;
     border-radius: 6px;
-    padding: 2px 16px;
-    margin-top: 8px;
+    padding: 2px 16px;    
     margin-bottom: 48px;
 }
 
 .card__num-ep{
     font-size: 17px;    
     color: #118DA8;
+    margin-bottom: 23.56px;
 }
 
-.card__btn{
-    position: absolute;
-    bottom: 0px;
+.card__btn{    
     letter-spacing: 1px;
 }
 
@@ -269,15 +267,18 @@ button{
     font-size: 64px;        
     letter-spacing: 2.8px;
     line-height: 79.2px;        
-}  
+}
+
+.about__text p:last-child{
+margin-top: 33px;
+}
 
 .about__content p{
     color: #FFFFFFB2;
     font-size: 22px;
     line-height: 33px;
     margin: 25px 0;
-}
- 
+} 
 
 .about__arrow{
     transform: rotate(90);
@@ -358,15 +359,17 @@ button{
 }
 
 .reviews__container{
-    display: grid;
-    grid-template-columns: 423px 423px 423px;
-    grid-template-rows: 321px 364px; 
-    grid-gap: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0px -8px 0px -8px;
 }
 
 .reviews__square{
+    flex: 0 1 28%;
     background-color: #000000;
-    padding: 54px 0px 0px 50px;
+    padding: 55px 5px 30px 50px;
+    margin: 0px 0px 16px 0px;
     border-radius: 32px;    
 }
 
@@ -394,7 +397,7 @@ button{
 }
 
 footer{
-    padding: 99px 70px;  
+    padding: 83px 70px 99px 70px;     
 }
 
 .footer__container{
@@ -428,3 +431,9 @@ footer{
     margin: 0;
 }
 
+/* Мобильные устройства */
+@media (max-width: 720px) {
+
+
+
+}

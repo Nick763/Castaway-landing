@@ -1,293 +1,311 @@
 <!DOCTYPE html>
-<html lang="ru">	
-	<head>		
-		<title>Castaway</title>
-        <meta charset="UTF-8">		
-		<link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css?family=DM+Sans:regular,400,500,700,900&display=swap" rel="stylesheet">		
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	</head>
-	
-	<body>
-        <header class="header">
-            <div class="header__contaner">
-                <img class="header__logo" src='vectorgraphics/LOGO.svg'>
-                <nav class="header-menu">                    
-                    <ul class="header-menu__list">
-                        <li class="header-menu__li"><a href="#home" class="menu__link header-menu__link">Home</a></li>
-                        <li class="header-menu__li"><a href="#episodes" class="menu__link header-menu__link">Episodes</a></li>
-                        <li class="header-menu__li"><a href="#about" class="menu__link header-menu__link">About</a></li>
-                        <li class="header-menu__li"><a href="#contact" class="menu__link header-menu__link">Contact</a></li>
+<html lang="ru">
+
+<head>
+    <title>Castaway</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans:regular,400,500,700,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=1440">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__contaner">
+            <img class="header__logo" src='vectorgraphics/LOGO.svg'>
+            <nav class="header-menu">
+                <ul class="header-menu__list">
+                    <li class="header-menu__li"><a href="#home" class="menu__link header-menu__link">Home</a></li>
+                    <li class="header-menu__li"><a href="#episodes" class="menu__link header-menu__link">Episodes</a>
+                    </li>
+                    <li class="header-menu__li"><a href="#about" class="menu__link header-menu__link">About</a></li>
+                    <li class="header-menu__li"><a href="#contact" class="menu__link header-menu__link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class='page'>
+        <div class='home' id="home">
+            <div class='home__conrainer'>
+                <div class='home__photo'>
+                    <img class="home__main-photo" src="img/next level.svg">
+                    <img class="home__lines" src="vectorgraphics/lines.svg">
+                </div>
+                <div class='home__content'>
+                    <div class="home__text">
+                        <h1 class="home__title-one">
+                            Take your
+                            <br>podcast to the
+                        </h1>
+                        <h1 class="home__title-two">next <b>level</b></h1>
+                        <img class="home__line-next" src="vectorgraphics/line(next).svg">
+                    </div>
+                    <div class="home__media">
+                        <p>Listen on</p>
+                        <div class="home__media-streaming">
+                            <a class="stream-logo home__stream-logo" href=""><img src="img/logo/spotify.svg"></a>
+                            <a class="stream-logo home__stream-logo" href=""><img src="img/logo/red.svg"></a>
+                            <a class="stream-logo home__stream-logo" href=""><img src="img/logo/orange.svg"></a>
+                            <a class="stream-logo home__stream-logo" href=""><img src="img/logo/violet.svg"></a>
+                            <a class="stream-logo home__stream-logo" href=""><img src="img/logo/white.svg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="episodes" id="episodes">
+            <div class="latest-episodes">
+                <h1>Latest episodes</h1>
+                <button class="btn latest-episodes__btn">View all episodes</button>
+            </div>
+
+            <div class="episodes__cards">
+                <div class="card">
+                    <div class="image-container-ep3 card__image-container">
+                        <img class="card__image" src="img/Ep3.svg">
+                    </div>
+                    <div class="card__description">
+                        <div class="card__tag">Gear</div>
+                        <div class="card__num-ep">Episode 3</div>
+                        <div class="card__title">
+                            <h1>Should you get outboard audio gear?</h1>
+                        </div>
+                        <p>Is hardware really worth it when it comes to podcasting? The answer is...it<br>
+                            depends. Here’s our reasons on why you might want to consider picking something up.</p>
+                        <button class="btn card__btn">View Episode Details</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__image-container">
+                        <img class="card__image" src="img/Ep2.svg">
+                    </div>
+                    <div class="card__description">
+                        <div class="card__tag">Tips & Tricks</div>
+                        <div class="card__num-ep">Episode 2</div>
+                        <div class="card__title">
+                            <h1>Mic tricks to take<br> you to the next level</h1>
+                        </div>
+                        <p>Stop rolling with those default settings on your mic. These small tweaks will<br>
+                            take you from sounding good to great.</p>
+                        <button class="btn card__btn">View Episode Details</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__image-container">
+                        <img class="card__image" src="img/Ep1.svg">
+                    </div>
+                    <div class="card__description">
+                        <div class="card__tag">Gear</div>
+                        <div class="card__num-ep">Episode 1</div>
+                        <div class="card__title-ep1 card__title">
+                            <h1>The best microphone<br> under $200</h1>
+                        </div>
+                        <p>With so many microphones on the market, how are you supposed to know
+                            what’s the best? Take a look at our top picks.</p>
+                        <button class="btn card__btn">View Episode Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class='about' id="about">
+            <div class='about__conrainer'>
+                <div class='about__content'>
+                    <div class='about__meet'>
+                        <img class='about__arrow' src='vectorgraphics/arrow.png'>
+                        <div class='about__acquaintance'>Meet your host</div>
+                    </div>
+                    <h1 class='about__title'>Jacob Paulaner</h1>
+                    <div class='about__text'>
+                        <p>Jacob has a background in audio engineering, and has<br> been podcasting since the early
+                            days.</p>
+                        <p>He’s here to help you level up your game by sharing<br> everything he’s learned along the
+                            way.</p>
+                    </div>
+                </div>
+                <div class='about__photo'>
+                    <img src="img/Jacob.svg">
+                </div>
+            </div>
+        </div>
+
+        <div class='form'>
+            <div class='form__container'>
+                <div class='form__newsletter'>
+                    Email Newsletter
+                    <div class="form__title">
+                        <h1>Subscribe<br> for updates</h1>
+                    </div>
+                </div>
+                <div class='form__form'>
+                    <form>
+                        <div class="form__group">
+                            <label for="name"></label>
+                            <input type="text" placeholder="Name" id="name">
+                        </div>
+                        <div class="form__group">
+                            <label for="email"></label>
+                            <input type="email" placeholder="Email" id="email">
+                        </div>
+                        <button class="form__submit" type="submit">
+                            Submit
+                        </button>
+                    </form>
+                </div>
+                <img class="form__lines" src="vectorgraphics/lines 2.svg">
+            </div>
+        </div>
+
+        <div class="reviews">
+            <div class="reviews__container">
+                <div class="reviews__square">
+                    <div class="reviews__stars">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                    </div>
+                    <div class="reviews__text">
+                        <h1>I can’t recommend<br> this podcast<br> enough</h1>
+                    </div>
+                    <div class="reviews__name">
+                        <p>Betty Lacey</p>
+                    </div>
+                </div>
+
+                <div class="reviews__square">
+                    <div class="reviews__stars">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                    </div>
+                    <div class="reviews__text">
+                        <h1>Jacob is the best<br> in the business</h1>
+                    </div>
+                    <div class="reviews__name">
+                        <p>Adam Driver</p>
+                    </div>
+                </div>
+
+                <div class="reviews__square">
+                    <div class="reviews__stars">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                    </div>
+                    <div class="reviews__text">
+                        <h1>A wealth of audio<br> knowledge</h1>
+                    </div>
+                    <div class="reviews__name">
+                        <p>Marcus Brown</p>
+                    </div>
+                </div>
+
+                <div class="reviews__square">
+                    <div class="reviews__stars">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                    </div>
+                    <div class="reviews__text">
+                        <h1>Every episode is a<br> gem!</h1>
+                    </div>
+                    <div class="reviews__name">
+                        <p>Jessica Knowl</p>
+                    </div>
+                </div>
+
+                <div class="reviews__square">
+                    <div class="reviews__stars">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                    </div>
+                    <div class="reviews__text">
+                        <h1>Whoa whoa, let me<br> take some notes!</h1>
+                    </div>
+                    <div class="reviews__name">
+                        <p>Scott Adams</p>
+                    </div>
+                </div>
+
+                <div class="reviews__square">
+                    <div class="reviews__stars">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                        <img class="reviews__star-image" src="vectorgraphics/star.svg">
+                    </div>
+                    <div class="reviews__text">
+                        <h1>I’ve upped my<br> game considerably<br> since I started<br> listening</h1>
+                    </div>
+                    <div class="reviews__name">
+                        <p>Steven Blast</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer" id="contact">
+        <div class="footer__container">
+            <div class="footer__media">
+                <img class="footer__logo" src='vectorgraphics/LOGO footer.svg'>
+                <div class="social-media">
+                    <a class="social-media__logo" href=""><img src="img/logo/social media insta.svg"></a>
+                    <a class="social-media__logo" href=""><img src="img/logo/social media twitt.svg"></a>
+                    <a class="social-media__logo" href=""><img src="img/logo/social media faceb.svg"></a>
+                </div>
+            </div>
+            <div class="footer__menu">
+                <nav class="footer__menu_nav">
+                    <ul class="footer-menu__list">
+                        <li class="footer-menu__li"><a href="#home" class="footer-menu__list_link menu__link">Home</a>
+                        </li>
+                        <li class="footer-menu__li"><a href="#about" class="footer-menu__list_link menu__link">About</a>
+                        </li>
+                        <li class="footer-menu__li"><a href="#episodes"
+                                class="footer-menu__list_link menu__link">Episodes</a></li>
+                        <li class="footer-menu__li"><a href="#contact"
+                                class="footer-menu__list_link menu__link">Contact</a></li>
                     </ul>
                 </nav>
             </div>
-        </header>
-
-
-        <main class ='page'>
-            <div class ='home' id="home">
-                <div class ='home__conrainer'>                    
-                    <div class ='home__photo'>
-                        <img class = "home__main-photo" src="img/next level.svg">
-                        <img class = "home__lines" src="vectorgraphics/lines.svg">                                                 
-                    </div>
-                    <div class ='home__content'>
-                        <div class="home__text">
-                            <h1 class="home__title-one">
-                            Take your
-                            <br>podcast to the</h1> 
-                            <h1 class="home__title-two">next <b>level</b></h1>
-                            <img class = "home__line-next" src="vectorgraphics/line(next).svg">                            
-                        </div>
-                        <div class="home__media"><p>Listen on</p>
-                            <div class="home__media-streaming">                         
-                                <a class="stream-logo home__stream-logo" href=""><img src="img/logo/spotify.svg"></a>
-                                <a class="stream-logo home__stream-logo" href=""><img src="img/logo/red.svg"></a>
-                                <a class="stream-logo home__stream-logo" href=""><img src="img/logo/orange.svg"></a>
-                                <a class="stream-logo home__stream-logo" href=""><img src="img/logo/violet.svg"></a>
-                                <a class="stream-logo home__stream-logo" href=""><img src="img/logo/white.svg"></a>
-                            </div>
-                        </div>
-                    </div>                              
-                </div>
-            </div> 
-            
-            
-            <div class="episodes" id="episodes">
-                <div class="latest-episodes">
-                    <h1>Latest episodes</h1>
-                    <button class="btn latest-episodes__btn">View all episodes</button>
-                </div>
-                
-                <div class="episodes__cards">
-                    <div class="card">
-                        <div class="image-container-ep3 card__image-container">
-                            <img class="card__image" src="img/Ep3.svg">
-                        </div>
-                        <div class="card__description">
-                            <div class="card__tag">Gear</div>
-                            <div class="card__num-ep">Episode 3</div>
-                            <div class="card__title"><h1>Should you get outboard audio gear?</h1></div>
-                            <p>Is hardware really worth it when it comes to podcasting? The answer is...it<br>
-                                depends. Here’s our reasons on why you might want to consider picking something up.</p>
-                            <button class="btn card__btn">View Episode Details</button>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card__image-container">
-                            <img class="card__image" src="img/Ep2.svg">
-                        </div>
-                        <div class="card__description">
-                            <div class="card__tag">Tips & Tricks</div>
-                            <div class="card__num-ep">Episode 2</div>
-                            <div class="card__title"><h1>Mic tricks to take<br> you to the next level</h1></div>
-                            <p>Stop rolling with those default settings on your mic. These small tweaks will<br>
-                                take you from sounding good to great.</p>
-                            <button class="btn card__btn">View Episode Details</button>
-                        </div>    
-                    </div>
-                    <div class="card">
-                        <div class="card__image-container">
-                            <img class="card__image" src="img/Ep1.svg">
-                        </div>
-                        <div class="card__description">
-                            <div class="card__tag">Gear</div>
-                            <div class="card__num-ep">Episode 1</div>
-                            <div class="card__title-ep1 card__title"><h1>The best microphone<br> under $200</h1></div>
-                            <p>With so many microphones on the market, how are you supposed to know
-                                what’s the best? Take a look at our top picks.</p>
-                            <button class="btn card__btn">View Episode Details</button>
-                        </div>    
-                    </div>
-                </div>
+            <div class="footer__menu">
+                <ul class="footer-menu__links">
+                    <li class="footer-menu__li"><a href="#" class="menu__link footer-menu__link">Style Guide</a></li>
+                    <li class="footer-menu__li"><a href="#" class="menu__link footer-menu__link">Instructions</a>
+                    <li class="footer-menu__li"><a href="#" class="menu__link footer-menu__link">Changelog</a></li>
+                    <li class="footer-menu__li"><a href="#" class="menu__link footer-menu__link">Credit</a></li>
+                    <li class="footer-menu__li"><a href="#" class="menu__link footer-menu__link">Powered by Webflow</a>
+                    </li>
+                    <li class="footer-menu__li"><a href="#" class="menu__link footer-menu__link">Licenses</a></li>
+                </ul>
             </div>
-
-            <div class ='about' id="about">
-                <div class ='about__conrainer'>
-                    <div class ='about__content'>
-                        <div class='about__meet'>
-                            <img class = 'about__arrow' src='vectorgraphics/arrow.png'> 
-                            <div class='about__acquaintance'>Meet your host</div>
-                        </div> 
-                        <h1 class='about__title'>Jacob Paulaner</h1>
-                        <div class ='about__text'>                        
-                            <p>Jacob has a background in audio engineering, and has<br> been podcasting since the early days.</p>                    
-                            <p>He’s here to help you level up your game by sharing<br> everything he’s learned along the way.</p>
-                        </div>                                 
-                    </div>                           
-                    <div class ='about__photo'>
-                        <img src="img/Jacob.svg">                                                                    
-                    </div>                                       
-                </div>
+            <div class="footer__media-streaming">
+                <a class="stream-logo footer__stream-logo" href=""><img src="img/logo/spotify.svg"></a>
+                <a class="stream-logo footer__stream-logo" href=""><img src="img/logo/red.svg"></a>
+                <a class="stream-logo footer__stream-logo" href=""><img src="img/logo/orange.svg"></a>
+                <a class="stream-logo footer__stream-logo" href=""><img src="img/logo/violet.svg"></a>
+                <a class="stream-logo footer__stream-logo" href=""><img src="img/logo/white.svg"></a>
             </div>
+        </div>
+    </footer>
+    <script src="js/animations.js"></script>
+</body>
 
-            <div class ='form'>
-                <div class ='form__container'>
-                    <div class ='form__newsletter'>
-                        Email Newsletter
-                        <div class="form__title">
-                            <h1>Subscribe<br> for updates</h1>
-                        </div>                        
-                    </div>
-                    <div class ='form__form'>
-                        <form>
-                            <div class="form__group">
-                                <label for="name"></label>
-                                <input type="text" placeholder="Name" id="name">
-                            </div>
-                            <div class="form__group">
-                                <label for="email"></label>
-                                <input type="email" placeholder="Email" id="email">
-                            </div>
-                            <button class="form__submit" type="submit">
-                                Submit
-                            </button>
-                        </form>                        
-                    </div>
-                    <img class= "form__lines" src="vectorgraphics/lines 2.svg">                    
-                </div>                
-            </div>
-
-            <div class="reviews">
-                <div class="reviews__container">
-                    <div class="reviews__square">
-                        <div class="reviews__stars">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                        </div>
-                        <div class="reviews__text">
-                            <h1>I can’t recommend<br> this podcast<br> enough</h1>
-                        </div>
-                        <div class="reviews__name">
-                            <p>Betty Lacey</p>
-                        </div>                   
-                    </div>
-
-                    <div class="reviews__square">
-                        <div class="reviews__stars">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                        </div>
-                        <div class="reviews__text">
-                            <h1>Jacob is the best<br> in the business</h1>
-                        </div>
-                        <div class="reviews__name">
-                            <p>Adam Driver</p>
-                        </div>                   
-                    </div>
-
-                    <div class="reviews__square">
-                        <div class="reviews__stars">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                        </div>
-                        <div class="reviews__text">
-                            <h1>A wealth of audio<br> knowledge</h1>
-                        </div>
-                        <div class="reviews__name">
-                            <p>Marcus Brown</p>
-                        </div>                   
-                    </div>
-
-                    <div class="reviews__square">
-                        <div class="reviews__stars">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                        </div>
-                        <div class="reviews__text">
-                            <h1>Every episode is a<br> gem!</h1>
-                        </div>
-                        <div class="reviews__name">
-                            <p>Jessica Knowl</p>
-                        </div>                   
-                    </div>
-                    
-                    <div class="reviews__square">
-                        <div class="reviews__stars">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                        </div>
-                        <div class="reviews__text">
-                            <h1>Whoa whoa, let me<br> take some notes!</h1>
-                        </div>
-                        <div class="reviews__name">
-                            <p>Scott Adams</p>
-                        </div>                   
-                    </div>
-
-                    <div class="reviews__square">
-                        <div class="reviews__stars">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                            <img class= "reviews__star-image" src="vectorgraphics/star.svg">
-                        </div>
-                        <div class="reviews__text">
-                            <h1>I’ve upped my<br> game considerably<br> since I started<br> listening</h1>
-                        </div>
-                        <div class="reviews__name">
-                            <p>Steven Blast</p>
-                        </div>                   
-                    </div>
-                </div>
-            </div>
-        </main>
-
-        <footer class="footer" id="contact">
-            <div class="footer__container">
-                <div class="footer__media">
-                    <img class="footer__logo" src='vectorgraphics/LOGO footer.svg'>
-                    <div class="social-media">
-                        <a class="social-media__logo" href=""><img src="img/logo/social media insta.svg"></a>
-                        <a class="social-media__logo" href=""><img src="img/logo/social media twitt.svg"></a>
-                        <a class="social-media__logo" href=""><img src="img/logo/social media faceb.svg"></a>
-                    </div>                                                                           
-                </div>
-                <div class="footer__menu">
-                    <nav class="footer__menu_nav">                    
-                        <ul class="footer-menu__list">
-                            <li class="footer-menu__li"><a href="#home" class="footer-menu__list_link menu__link">Home</a></li>
-                            <li class="footer-menu__li"><a href="#about" class="footer-menu__list_link menu__link">About</a></li>
-                            <li class="footer-menu__li"><a href="#episodes" class="footer-menu__list_link menu__link">Episodes</a></li>                                
-                            <li class="footer-menu__li"><a href="#contact" class="footer-menu__list_link menu__link">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="footer__menu">                        
-                    <ul class="footer-menu__links">
-                        <li class="footer-menu__li"><a href="#" class="menu__link footer-menu__link">Style Guide</a></li>
-                        <li class="footer-menu__li"><a href="#" class="menu__link footer-menu__link">Instructions</a>
-                        <li class="footer-menu__li"><a href="#" class="menu__link footer-menu__link">Changelog</a></li>
-                        <li class="footer-menu__li"><a href="#" class="menu__link footer-menu__link">Credit</a></li>
-                        <li class="footer-menu__li"><a href="#" class="menu__link footer-menu__link">Powered by Webflow</a></li>
-                        <li class="footer-menu__li"><a href="#" class="menu__link footer-menu__link">Licenses</a></li>                        
-                    </ul>           
-                </div>
-                <div class="footer__media-streaming">                                                 
-                    <a class="stream-logo footer__stream-logo" href=""><img src="img/logo/spotify.svg"></a>
-                    <a class="stream-logo footer__stream-logo" href=""><img src="img/logo/red.svg"></a>
-                    <a class="stream-logo footer__stream-logo" href=""><img src="img/logo/orange.svg"></a>
-                    <a class="stream-logo footer__stream-logo" href=""><img src="img/logo/violet.svg"></a>
-                    <a class="stream-logo footer__stream-logo" href=""><img src="img/logo/white.svg"></a>                        
-                </div>
-            </div>
-        </footer>
-        <script src="js/animations.js"></script> 
-    </body>
 </html>
